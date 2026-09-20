@@ -1,50 +1,35 @@
-# Michigan Nature Sounds 🌲🐺
+# Michigan Nature Sounds
 
-A nature and wildlife sound exploration app featuring Michigan mammals, birds, and insects.
-
-![Michigan Nature Sounds App](Michigan%20Nature%20Sounds%20Wolf%20App.png)
+An educational wildlife sound application featuring Michigan mammals,
+birds, and insects.
 
 ## App Information
 
-**App Name:** Michigan Nature Sounds  
-**Bundle ID:** com.yourcompany.MichiganNatureSounds  
-**Version:** 1.0  
-**Platform:** iOS  
-**Minimum iOS:** 3.0  
-
-**Category:** Nature / Wildlife / Educational
+- App Name: Michigan Nature Sounds
+- Version: 1.0
+- Platform: Web / iOS Wrapper
+- Category: Nature / Wildlife / Educational
 
 ## Features
 
-- 🐺 Mammal sound library
-- 🐦 Bird sound library
-- 🐝 Insect sound library
-- Animal images and scientific names
+- Browse Michigan wildlife
+- View animal information
 - Play animal sounds
-- Speaker sound controls
-- Next animal navigation
-- Category browsing
+- Explore categories:
+  - Mammals
+  - Birds
+  - Insects
 
-## Categories
+## Development
 
-### Mammals
-Examples:
+Built with:
 
-- Gray Wolf (*Canis lupus*)
-- Coyote (*Canis latrans*)
-- Red Fox (*Vulpes vulpes*)
-- Black Bear (*Ursus americanus*)
-- White-tailed Deer (*Odocoileus virginianus*)
+- HTML
+- CSS
+- JavaScript
 
-### Birds
+## GitHub Pages
 
-- Michigan bird species
-- Bird images
-- Bird calls and songs
+The app can be deployed using GitHub Pages.
 
-### Insects
-
-- Insect images
-- Natural sound recordings
-
-## Project Structure
+Repository:
