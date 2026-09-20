@@ -1,0 +1,20 @@
+{
+  "name": "Michigan Nature Sounds",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "forwardPorts": [8000],
+  "portsAttributes": {
+    "8000": {
+      "label": "Michigan Nature Sounds",
+      "onAutoForward": "openBrowser"
+    }
+  },
+  "postStartCommand": "python3 -m http.server 8000 --directory /workspaces/MichiganNatureSounds >/tmp/michigan-nature-sounds.log 2>&1 &",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+}

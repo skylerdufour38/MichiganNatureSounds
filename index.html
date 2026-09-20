@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Michigan Nature Sounds is a lightweight wildlife sound explorer for Michigan mammals, birds, and insects."
+    />
+    <title>Michigan Nature Sounds</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">♫</div>
+        <div>
+          <p class="eyebrow">Michigan Wildlife</p>
+          <h1>Michigan Nature Sounds</h1>
+        </div>
+      </div>
+
+      <nav class="filters" aria-label="Species categories">
+        <button class="filter-button active" data-filter="all" type="button">All</button>
+        <button class="filter-button" data-filter="Mammals" type="button">Mammals</button>
+        <button class="filter-button" data-filter="Birds" type="button">Birds</button>
+        <button class="filter-button" data-filter="Insects" type="button">Insects</button>
+      </nav>
+    </header>
+
+    <main class="page">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="badge">Field guide + sound sampler</p>
+          <h2>Explore the rhythm of Michigan's wild places.</h2>
+          <p>
+            Browse representative wildlife across forests, wetlands, fields, and quiet shorelines.
+            The app is designed for a simple static deployment on GitHub Pages and works well in GitHub Codespaces.
+          </p>
+        </div>
+
+        <div class="hero-card" aria-label="App highlights">
+          <div class="stat">
+            <strong>3</strong>
+            <span>Animal groups</span>
+          </div>
+          <div class="stat">
+            <strong>9</strong>
+            <span>Featured species</span>
+          </div>
+          <div class="stat">
+            <strong>1</strong>
+            <span>Static site</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="species-section" aria-labelledby="species-heading">
+        <div class="section-heading">
+          <h3 id="species-heading">Featured species</h3>
+        </div>
+        <div id="speciesGrid" class="species-grid" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
