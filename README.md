@@ -1,53 +1,54 @@
-# Michigan Nature Sounds
+# Michigan Nature Sounds 🌲🐺
 
-A lightweight static web app that showcases Michigan wildlife with a simple sound-sampler interface. It is designed to run in GitHub Codespaces and deploy cleanly to GitHub Pages.
+A wildlife audio exploration web app featuring Michigan mammals, birds, and insects.
+
+![Michigan Nature Sounds App](Michigan%20Nature%20Sounds%20Wolf%20App.png)
+
+## Overview
+
+Michigan Nature Sounds is an educational nature app designed to help users explore Michigan wildlife through:
+
+- 🐺 Animal information
+- 🔊 Wildlife sound playback
+- 🖼️ Species images
+- 🌲 Nature-themed interface
+- 📱 Mobile and tablet-friendly design
+
+The project is built as a web application that can be hosted with **GitHub Pages** and developed using **GitHub Codespaces**.
+
+---
 
 ## Features
 
-- Browse species by category
-- Explore Michigan mammals, birds, and insects
-- Read short educational descriptions for each animal
-- Trigger browser-based, synthetic wildlife-inspired sound previews
-- Deploy as a fully static site with no backend required
+### Categories
 
-## Tech stack
+- 🐾 Mammals
+- 🐦 Birds
+- 🪲 Insects
 
-- HTML
-- CSS
-- JavaScript
+### Animal Pages
 
-## Run locally
+Each animal includes:
 
-From the project root:
+- Common name
+- Scientific name
+- Description
+- Wildlife image
+- Audio playback
+- Navigation controls
 
-```bash
-python3 -m http.server 8000
-```
+Example:
 
-Then open:
+**Gray Wolf**
 
-```text
-http://localhost:8000
-```
+Scientific name:
 
-## GitHub Pages deployment
+`Canis lupus`
 
-This repository is configured for GitHub Pages deployment from the repository root.
+Description:
 
-1. Push the project to GitHub.
-2. Open the repository settings.
-3. Enable GitHub Pages.
-4. Set the source to GitHub Actions.
-5. The workflow in [.github/workflows/pages.yml](.github/workflows/pages.yml) will publish the site automatically.
+> The gray wolf is Michigan’s largest native land predator. It typically lives in packs and has a strong, distinctive howl.
 
-## GitHub Codespaces
+---
 
-The devcontainer configuration in [.devcontainer/devcontainer.json](.devcontainer/devcontainer.json) exposes port 8000 and launches a local static web server automatically, making it easy to preview the app in a browser while working in Codespaces.
-
-## Project files
-
-- [index.html](index.html) — page structure and content
-- [styles.css](styles.css) — layout, theme, and responsive styling
-- [app.js](app.js) — species list and sound playback logic
-- [.devcontainer/devcontainer.json](.devcontainer/devcontainer.json) — Codespaces setup
-- [.github/workflows/pages.yml](.github/workflows/pages.yml) — Pages publish workflow
+## Project Structure
